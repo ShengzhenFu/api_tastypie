@@ -13,7 +13,8 @@ It now support below API calls via the link below
 The source data of above are maintained in django admin site
     
     /admin
-    ![admin](https://user-images.githubusercontent.com/30173222/52926467-d2f2ec00-3370-11e9-9494-caa22ce1c558.JPG)
+    
+   ![admin](https://user-images.githubusercontent.com/30173222/52926467-d2f2ec00-3370-11e9-9494-caa22ce1c558.JPG)
 
 Installation instructions
 ---------------------------------
@@ -28,10 +29,11 @@ Installation instructions
    3.2 access localhost:8000/admin to manage the meta data
    
    3.3 call APIs in Postman via the links below to verify result
-        http://localhost:8000/api/v1/Server/?format=json
-        http://localhost:8000/api/v1/Team/?format=json
-        http://localhost:8000/api/v1/TechnicalService/?format=json
-        http://localhost:8000/api/v1/Server/?format=json&ts_id__exact=ts00165
+   
+       http://localhost:8000/api/v1/Server/?format=json
+       http://localhost:8000/api/v1/Team/?format=json
+       http://localhost:8000/api/v1/TechnicalService/?format=json
+       http://localhost:8000/api/v1/Server/?format=json&ts_id__exact=ts00165
     
     ![callapi](https://user-images.githubusercontent.com/30173222/52926655-a8edf980-3371-11e9-8da6-73f509f8269b.JPG)
     
