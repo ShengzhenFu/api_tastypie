@@ -2,8 +2,6 @@ from django.db import models
 import uuid
 
 
-
-
 class Product(models.Model):
     name = models.CharField(max_length=30)
     product_type = models.CharField(max_length=50)
